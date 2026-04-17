@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "/COSS/UNIFIED",
   "repositoryLayout": {
+    "fingerprintSeckey": "/BYOG/FPRINT_RT/DA9F605C3E521FE18ED1D785D9A7AA88_0",
     "format": "json",
     "formatVersion": "6",
     "keepClient": "false",
