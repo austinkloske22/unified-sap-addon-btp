@@ -4,7 +4,7 @@
   "data": [
    {
     "TABNAME": "/COSS/EVENT",
-    "AS4LOCAL": "A",
+    "AS4LOCAL": "L",
     "AS4VERS": 0,
     "TABCLASS": "TRANSP",
     "SQLTAB": "",
@@ -45,7 +45,7 @@
    {
     "TABNAME": "/COSS/EVENT",
     "DDLANGUAGE": "E",
-    "AS4LOCAL": "A",
+    "AS4LOCAL": "N",
     "AS4VERS": 0,
     "DDTEXT": "Event Table"
    }
@@ -57,7 +57,7 @@
    {
     "TABNAME": "/COSS/EVENT",
     "FIELDNAME": "CHANGED_BY",
-    "AS4LOCAL": "A",
+    "AS4LOCAL": "N",
     "AS4VERS": 0,
     "POSITION": 10,
     "KEYFLAG": "",
@@ -86,7 +86,7 @@
    {
     "TABNAME": "/COSS/EVENT",
     "FIELDNAME": "CLIENT",
-    "AS4LOCAL": "A",
+    "AS4LOCAL": "N",
     "AS4VERS": 0,
     "POSITION": 1,
     "KEYFLAG": "X",
@@ -115,7 +115,7 @@
    {
     "TABNAME": "/COSS/EVENT",
     "FIELDNAME": "CREATED_BY",
-    "AS4LOCAL": "A",
+    "AS4LOCAL": "N",
     "AS4VERS": 0,
     "POSITION": 9,
     "KEYFLAG": "",
@@ -144,7 +144,7 @@
    {
     "TABNAME": "/COSS/EVENT",
     "FIELDNAME": "DATE_FROM",
-    "AS4LOCAL": "A",
+    "AS4LOCAL": "N",
     "AS4VERS": 0,
     "POSITION": 7,
     "KEYFLAG": "",
@@ -173,7 +173,7 @@
    {
     "TABNAME": "/COSS/EVENT",
     "FIELDNAME": "DATE_TO",
-    "AS4LOCAL": "A",
+    "AS4LOCAL": "N",
     "AS4VERS": 0,
     "POSITION": 8,
     "KEYFLAG": "",
@@ -202,7 +202,7 @@
    {
     "TABNAME": "/COSS/EVENT",
     "FIELDNAME": "EVENT_ID",
-    "AS4LOCAL": "A",
+    "AS4LOCAL": "N",
     "AS4VERS": 0,
     "POSITION": 3,
     "KEYFLAG": "",
@@ -231,7 +231,7 @@
    {
     "TABNAME": "/COSS/EVENT",
     "FIELDNAME": "EVENT_NAME",
-    "AS4LOCAL": "A",
+    "AS4LOCAL": "N",
     "AS4VERS": 0,
     "POSITION": 4,
     "KEYFLAG": "",
@@ -260,7 +260,7 @@
    {
     "TABNAME": "/COSS/EVENT",
     "FIELDNAME": "EVENT_UUID",
-    "AS4LOCAL": "A",
+    "AS4LOCAL": "N",
     "AS4VERS": 0,
     "POSITION": 2,
     "KEYFLAG": "X",
@@ -289,7 +289,7 @@
    {
     "TABNAME": "/COSS/EVENT",
     "FIELDNAME": "IS_ONLINE",
-    "AS4LOCAL": "A",
+    "AS4LOCAL": "N",
     "AS4VERS": 0,
     "POSITION": 6,
     "KEYFLAG": "",
@@ -318,7 +318,7 @@
    {
     "TABNAME": "/COSS/EVENT",
     "FIELDNAME": "LAST_CHANGED_AT",
-    "AS4LOCAL": "A",
+    "AS4LOCAL": "N",
     "AS4VERS": 0,
     "POSITION": 12,
     "KEYFLAG": "",
@@ -347,7 +347,7 @@
    {
     "TABNAME": "/COSS/EVENT",
     "FIELDNAME": "LOCAL_LAST_CHANGED_AT",
-    "AS4LOCAL": "A",
+    "AS4LOCAL": "N",
     "AS4VERS": 0,
     "POSITION": 11,
     "KEYFLAG": "",
@@ -376,7 +376,7 @@
    {
     "TABNAME": "/COSS/EVENT",
     "FIELDNAME": "LOCATION",
-    "AS4LOCAL": "A",
+    "AS4LOCAL": "N",
     "AS4VERS": 0,
     "POSITION": 5,
     "KEYFLAG": "",
@@ -410,49 +410,49 @@
    {
     "TABNAME": "/COSS/EVENT",
     "DDLANGUAGE": "E",
-    "AS4LOCAL": "A",
+    "AS4LOCAL": "N",
     "FIELDNAME": "CLIENT",
     "DDTEXT": ""
    },
    {
     "TABNAME": "/COSS/EVENT",
     "DDLANGUAGE": "E",
-    "AS4LOCAL": "A",
+    "AS4LOCAL": "N",
     "FIELDNAME": "DATE_FROM",
     "DDTEXT": ""
    },
    {
     "TABNAME": "/COSS/EVENT",
     "DDLANGUAGE": "E",
-    "AS4LOCAL": "A",
+    "AS4LOCAL": "N",
     "FIELDNAME": "DATE_TO",
     "DDTEXT": ""
    },
    {
     "TABNAME": "/COSS/EVENT",
     "DDLANGUAGE": "E",
-    "AS4LOCAL": "A",
+    "AS4LOCAL": "N",
     "FIELDNAME": "EVENT_ID",
     "DDTEXT": ""
    },
    {
     "TABNAME": "/COSS/EVENT",
     "DDLANGUAGE": "E",
-    "AS4LOCAL": "A",
+    "AS4LOCAL": "N",
     "FIELDNAME": "EVENT_NAME",
     "DDTEXT": ""
    },
    {
     "TABNAME": "/COSS/EVENT",
     "DDLANGUAGE": "E",
-    "AS4LOCAL": "A",
+    "AS4LOCAL": "N",
     "FIELDNAME": "EVENT_UUID",
     "DDTEXT": ""
    },
    {
     "TABNAME": "/COSS/EVENT",
     "DDLANGUAGE": "E",
-    "AS4LOCAL": "A",
+    "AS4LOCAL": "N",
     "FIELDNAME": "LOCATION",
     "DDTEXT": ""
    }
@@ -463,7 +463,7 @@
   "data": [
    {
     "TABNAME": "/COSS/EVENT",
-    "AS4LOCAL": "A",
+    "AS4LOCAL": "N",
     "AS4VERS": 0,
     "TABKAT": "0",
     "TABART": "APPL0",
