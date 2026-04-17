@@ -1,20 +1,27 @@
 [
  {
-  "table":"ATO_E07",
+  "table":"APS_IAM_W_BUCDEP",
   "nametab":
   [
    {
-    "NAME":"TRKORR",
+    "NAME":"BU_CATALOG_ID",
     "KEY":"X",
     "TYPE":"C",
-    "LENGTH":20,
+    "LENGTH":35,
     "DECIMALS":-1
    },
    {
-    "NAME":"MANIFEST",
+    "NAME":"DEP_BU_CATALOG_ID",
+    "KEY":"X",
+    "TYPE":"C",
+    "LENGTH":35,
+    "DECIMALS":-1
+   },
+   {
+    "NAME":"DEP_TYPE",
     "KEY":"",
-    "TYPE":"R",
-    "LENGTH":8,
+    "TYPE":"C",
+    "LENGTH":1,
     "DECIMALS":-1
    }
   ],
