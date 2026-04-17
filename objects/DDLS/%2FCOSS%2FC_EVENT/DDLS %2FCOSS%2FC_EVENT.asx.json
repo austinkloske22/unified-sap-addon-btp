@@ -4,7 +4,7 @@
   "data": [
    {
     "DDLNAME": "/COSS/C_EVENT",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "AS4USER": "SAP_CUSTOMER",
     "AS4DATE": "0000-00-00",
     "AS4TIME": "00:00:00",
@@ -25,7 +25,7 @@
     "DDLNAME": "/COSS/C_EVENT",
     "STRUCOBJN": "/COSS/C_EVENT",
     "DDLANGUAGE": "E",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "DDTEXT": "###GENERATED Core Data Service Entity"
    }
   ]
@@ -36,7 +36,7 @@
    {
     "DDLNAME": "/COSS/C_EVENT",
     "DDLANGUAGE": "E",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "DDTEXT": "Projection View for /COSS/R_EVENT"
    }
   ]

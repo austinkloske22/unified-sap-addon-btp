@@ -4,7 +4,7 @@
   "data": [
    {
     "TABNAME": "/COSS/EVENT_D",
-    "AS4LOCAL": "L",
+    "AS4LOCAL": "A",
     "AS4VERS": 0,
     "TABCLASS": "TRANSP",
     "SQLTAB": "",
@@ -45,7 +45,7 @@
    {
     "TABNAME": "/COSS/EVENT_D",
     "DDLANGUAGE": "E",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "AS4VERS": 0,
     "DDTEXT": "Draft Database Table for /COSS/EVENT_D"
    }
@@ -57,7 +57,7 @@
    {
     "TABNAME": "/COSS/EVENT_D",
     "FIELDNAME": ".INCLUDE",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "AS4VERS": 0,
     "POSITION": 13,
     "KEYFLAG": "",
@@ -86,7 +86,7 @@
    {
     "TABNAME": "/COSS/EVENT_D",
     "FIELDNAME": "CHANGEDBY",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "AS4VERS": 0,
     "POSITION": 10,
     "KEYFLAG": "",
@@ -115,7 +115,7 @@
    {
     "TABNAME": "/COSS/EVENT_D",
     "FIELDNAME": "CREATEDBY",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "AS4VERS": 0,
     "POSITION": 9,
     "KEYFLAG": "",
@@ -144,7 +144,7 @@
    {
     "TABNAME": "/COSS/EVENT_D",
     "FIELDNAME": "DATEFROM",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "AS4VERS": 0,
     "POSITION": 7,
     "KEYFLAG": "",
@@ -173,7 +173,7 @@
    {
     "TABNAME": "/COSS/EVENT_D",
     "FIELDNAME": "DATETO",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "AS4VERS": 0,
     "POSITION": 8,
     "KEYFLAG": "",
@@ -202,7 +202,7 @@
    {
     "TABNAME": "/COSS/EVENT_D",
     "FIELDNAME": "DRAFTADMINISTRATIVEDATAUUID",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "AS4VERS": 0,
     "POSITION": 16,
     "KEYFLAG": "",
@@ -231,7 +231,7 @@
    {
     "TABNAME": "/COSS/EVENT_D",
     "FIELDNAME": "DRAFTENTITYCREATIONDATETIME",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "AS4VERS": 0,
     "POSITION": 14,
     "KEYFLAG": "",
@@ -260,7 +260,7 @@
    {
     "TABNAME": "/COSS/EVENT_D",
     "FIELDNAME": "DRAFTENTITYLASTCHANGEDATETIME",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "AS4VERS": 0,
     "POSITION": 15,
     "KEYFLAG": "",
@@ -289,7 +289,7 @@
    {
     "TABNAME": "/COSS/EVENT_D",
     "FIELDNAME": "DRAFTENTITYOPERATIONCODE",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "AS4VERS": 0,
     "POSITION": 17,
     "KEYFLAG": "",
@@ -318,7 +318,7 @@
    {
     "TABNAME": "/COSS/EVENT_D",
     "FIELDNAME": "DRAFTFIELDCHANGES",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "AS4VERS": 0,
     "POSITION": 19,
     "KEYFLAG": "",
@@ -347,7 +347,7 @@
    {
     "TABNAME": "/COSS/EVENT_D",
     "FIELDNAME": "EVENTID",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "AS4VERS": 0,
     "POSITION": 3,
     "KEYFLAG": "",
@@ -376,7 +376,7 @@
    {
     "TABNAME": "/COSS/EVENT_D",
     "FIELDNAME": "EVENTNAME",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "AS4VERS": 0,
     "POSITION": 4,
     "KEYFLAG": "",
@@ -405,7 +405,7 @@
    {
     "TABNAME": "/COSS/EVENT_D",
     "FIELDNAME": "EVENTUUID",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "AS4VERS": 0,
     "POSITION": 2,
     "KEYFLAG": "X",
@@ -434,7 +434,7 @@
    {
     "TABNAME": "/COSS/EVENT_D",
     "FIELDNAME": "HASACTIVEENTITY",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "AS4VERS": 0,
     "POSITION": 18,
     "KEYFLAG": "",
@@ -463,7 +463,7 @@
    {
     "TABNAME": "/COSS/EVENT_D",
     "FIELDNAME": "ISONLINE",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "AS4VERS": 0,
     "POSITION": 6,
     "KEYFLAG": "",
@@ -492,7 +492,7 @@
    {
     "TABNAME": "/COSS/EVENT_D",
     "FIELDNAME": "LASTCHANGEDAT",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "AS4VERS": 0,
     "POSITION": 12,
     "KEYFLAG": "",
@@ -521,7 +521,7 @@
    {
     "TABNAME": "/COSS/EVENT_D",
     "FIELDNAME": "LOCALLASTCHANGEDAT",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "AS4VERS": 0,
     "POSITION": 11,
     "KEYFLAG": "",
@@ -550,7 +550,7 @@
    {
     "TABNAME": "/COSS/EVENT_D",
     "FIELDNAME": "LOCATION",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "AS4VERS": 0,
     "POSITION": 5,
     "KEYFLAG": "",
@@ -579,7 +579,7 @@
    {
     "TABNAME": "/COSS/EVENT_D",
     "FIELDNAME": "MANDT",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "AS4VERS": 0,
     "POSITION": 1,
     "KEYFLAG": "X",
@@ -613,42 +613,42 @@
    {
     "TABNAME": "/COSS/EVENT_D",
     "DDLANGUAGE": "E",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "FIELDNAME": "DATEFROM",
     "DDTEXT": ""
    },
    {
     "TABNAME": "/COSS/EVENT_D",
     "DDLANGUAGE": "E",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "FIELDNAME": "DATETO",
     "DDTEXT": ""
    },
    {
     "TABNAME": "/COSS/EVENT_D",
     "DDLANGUAGE": "E",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "FIELDNAME": "EVENTID",
     "DDTEXT": ""
    },
    {
     "TABNAME": "/COSS/EVENT_D",
     "DDLANGUAGE": "E",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "FIELDNAME": "EVENTNAME",
     "DDTEXT": ""
    },
    {
     "TABNAME": "/COSS/EVENT_D",
     "DDLANGUAGE": "E",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "FIELDNAME": "EVENTUUID",
     "DDTEXT": ""
    },
    {
     "TABNAME": "/COSS/EVENT_D",
     "DDLANGUAGE": "E",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "FIELDNAME": "LOCATION",
     "DDTEXT": ""
    }
@@ -659,7 +659,7 @@
   "data": [
    {
     "TABNAME": "/COSS/EVENT_D",
-    "AS4LOCAL": "N",
+    "AS4LOCAL": "A",
     "AS4VERS": 0,
     "TABKAT": "4",
     "TABART": "APPL1",
