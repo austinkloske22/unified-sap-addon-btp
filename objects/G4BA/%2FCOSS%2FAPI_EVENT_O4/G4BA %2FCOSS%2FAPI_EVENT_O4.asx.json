@@ -1,75 +1,71 @@
 [
  {
-  "table":"/IWBEP/I_V4_MSGA",
-  "data":
-  [
+  "table": "/IWBEP/I_V4_MSGA",
+  "data": [
    {
-    "GROUP_ID":"/COSS/API_EVENT_O4",
-    "SERVICE_ID":"/IWBEP/COMMON",
-    "REPOSITORY_ID":"DEFAULT",
-    "GWBEP_VERSION":40,
-    "CREATED_BY":"SAP_CUSTOMER",
-    "CHANGED_BY":"SAP_CUSTOMER",
-    "CREATED_TS":"+020260420122642",
-    "CHANGED_TS":"+020260420122642"
+    "GROUP_ID": "/COSS/API_EVENT_O4",
+    "SERVICE_ID": "/IWBEP/COMMON",
+    "REPOSITORY_ID": "DEFAULT",
+    "GWBEP_VERSION": 40,
+    "CREATED_BY": "SAP_CUSTOMER",
+    "CHANGED_BY": "SAP_CUSTOMER",
+    "CREATED_TS": "+020260420122642",
+    "CHANGED_TS": "+020260420122642"
    }
   ]
  },
  {
-  "table":"/IWBEP/I_V4_MSGR",
-  "data":
-  [
+  "table": "/IWBEP/I_V4_MSGR",
+  "data": [
    {
-    "GROUP_ID":"/COSS/API_EVENT_O4",
-    "GWBEP_VERSION":40,
-    "CREATED_BY":"SAP_CUSTOMER",
-    "CHANGED_BY":"SAP_CUSTOMER",
-    "CREATED_TS":"+020260420122642",
-    "CHANGED_TS":"+020260420122642",
-    "ASSIGNMENT_REPO_ID":"SADL",
-    "EXTERNAL_GROUP_ID":"/COSS/API_EVENT_O4",
-    "ABAP_LANGUAGE_VERSION":"5"
+    "GROUP_ID": "/COSS/API_EVENT_O4",
+    "GWBEP_VERSION": 40,
+    "CREATED_BY": "SAP_CUSTOMER",
+    "CHANGED_BY": "SAP_CUSTOMER",
+    "CREATED_TS": "+020260420122642",
+    "CHANGED_TS": "+020260420122642",
+    "ASSIGNMENT_REPO_ID": "SADL",
+    "EXTERNAL_GROUP_ID": "/COSS/API_EVENT_O4",
+    "ABAP_LANGUAGE_VERSION": "5"
    }
   ]
  },
  {
-  "table":"/IWBEP/I_V4_MSGT",
-  "data":
-  [
+  "table": "/IWBEP/I_V4_MSGT",
+  "data": [
    {
-    "GROUP_ID":"/COSS/API_EVENT_O4",
-    "LANGUAGE":"E",
-    "DESCRIPTION":"Service Binding for /COSS/API_EVENT_O4"
+    "GROUP_ID": "/COSS/API_EVENT_O4",
+    "LANGUAGE": "E",
+    "DESCRIPTION": "Service Binding for /COSS/API_EVENT_O4"
    }
   ]
  },
  {
-  "table":"TADIR",
-  "data":
-  [
+  "table": "TADIR",
+  "data": [
    {
-    "PGMID":"R3TR",
-    "OBJECT":"G4BA",
-    "OBJ_NAME":"/COSS/API_EVENT_O4",
-    "KORRNUM":"",
-    "SRCSYSTEM":"...",
-    "AUTHOR":"SAP_CUSTOMER",
-    "SRCDEP":"",
-    "DEVCLASS":"/COSS/EVENT",
-    "GENFLAG":"",
-    "EDTFLAG":"",
-    "CPROJECT":" S",
-    "MASTERLANG":"E",
-    "VERSID":"",
-    "PAKNOCHECK":"",
-    "OBJSTABLTY":"",
-    "COMPONENT":"/COSS/UNIFIED",
-    "CRELEASE":"100",
-    "DELFLAG":"",
-    "TRANSLTTXT":"",
-    "CREATED_ON":"2026-04-20",
-    "CHECK_DATE":"2026-04-20",
-    "CHECK_CFG":""
+    "PGMID": "R3TR",
+    "OBJECT": "G4BA",
+    "OBJ_NAME": "/COSS/API_EVENT_O4",
+    "KORRNUM": "",
+    "SRCSYSTEM": "...",
+    "AUTHOR": "SAP_CUSTOMER",
+    "SRCDEP": "",
+    "DEVCLASS": "/COSS/EVENT",
+    "GENFLAG": "",
+    "EDTFLAG": "",
+    "CPROJECT": " S",
+    "MASTERLANG": "E",
+    "VERSID": "",
+    "PAKNOCHECK": "",
+    "OBJSTABLTY": "",
+    "COMPONENT": "/COSS/UNIFIED",
+    "CRELEASE": "100",
+    "DELFLAG": "",
+    "TRANSLTTXT": "",
+    "CREATED_ON": "2026-04-20",
+    "CHECK_DATE": "2026-04-20",
+    "CHECK_CFG": ""
    }
   ]
  }
