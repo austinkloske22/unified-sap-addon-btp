@@ -1,0 +1,46 @@
+{
+ "fingerprints":
+ [
+  {
+   "name":"CINC /COSS/BP_C_EVENT==============CCAU.abap",
+   "fingerprint":"8Zup8wNXYru+DRZfr4ttExDR9Nd+u+SWTkNPfPCJZiPjjwupWgqXCsBXvE+F3/8BZcd/dxC2uZU1FK25fxAG7g=="
+  },
+  {
+   "name":"CINC /COSS/BP_C_EVENT==============CCDEF.abap",
+   "fingerprint":"jszT35hlIz05ogb+dn4pta/aKk3rozVDYIYGtGldf23ZqqPY2PkIOOEzO1ij7c7et31ynGl0aT0zwkjTkUanqA=="
+  },
+  {
+   "name":"CINC /COSS/BP_C_EVENT==============CCIMP.abap",
+   "fingerprint":"yCoQINUy5WfiiSh21LPmiRgHlbU6TMPGUgr1ZV+ms+RZcQL4PoF0nwatT4Pck6V5Ec9YuWGVlCpruXFHRbfeCg=="
+  },
+  {
+   "name":"CINC /COSS/BP_C_EVENT==============CCMAC.abap",
+   "fingerprint":"iZVdW/bRDgD2VX6+IP3sIiZSVuQn7qlew+OqyVbgj6q3meJImFWIA6bFqoK69I9P6Tj7V1z8ZN1daJsvGvOZ6Q=="
+  },
+  {
+   "name":"CLAS /COSS/BP_C_EVENT.asx.json",
+   "fingerprint":"V3NfP60chuUlDzx1PaOXDmQyOgvKaG6awWlclJbaLhqE+OWFNGYE9MpC5XvmC0NMjgM9340TiMDusrHNA1excg=="
+  },
+  {
+   "name":"CLSD /COSS/BP_C_EVENT.abap",
+   "fingerprint":"ukmu3q8bpYWKGIz/WL+aq2Jsmt9Oin8jrIpJ3iURrRvxHP7Bo140If1I5x9SnsJ56qdw7e+5LW6JSUQzxl+5Ug=="
+  },
+  {
+   "name":"CPRI /COSS/BP_C_EVENT.abap",
+   "fingerprint":"SCnW2ubPby5FXHYRP8wfUC/nKrlUWNdsoa3I+wANZEMB8xIf3rkY/mTzlpt9ndNrAtLYpTVEZtjoirvCCOJUYg=="
+  },
+  {
+   "name":"CPRO /COSS/BP_C_EVENT.abap",
+   "fingerprint":"KKc0T7mfD15nxJOHc5w+9TPSYOZ9UDgexwYtwEElDQ9rrxUq7k7wIl23Lo7H5fyPMSBsvcFH89wGxMI17wh7qQ=="
+  },
+  {
+   "name":"CPUB /COSS/BP_C_EVENT.abap",
+   "fingerprint":"Z3ghAOsPmJ9lbkph9Dxq9sXqRyLHYOD3hJcJeQ1Su1OTnKtHPoBskGtn7m9shD+gplA0Vg13wJwKfZxz8DODtg=="
+  },
+  {
+   "name":"REPS /COSS/BP_C_EVENT==============CT.abap",
+   "fingerprint":"Tp1ZLaP05i9ZCSXJ2RutYlpmh/kA0s6QjvYHP8d2HFiSnb1iH6eqv57WKAj6XZwRWhMomaALqUcwwDVGu4Cv6g=="
+  }
+ ],
+ "fingerprintAll":"dySfxcqY4jGZhb+BA+e8nbKiJTbjTIkUMh+68TTQFI9m7Mb1PMxRLdLRkIZr81QVZHVXRikb2XLmGjeVfpmQkQ=="
+}

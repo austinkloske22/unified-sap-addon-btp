@@ -1,0 +1,50 @@
+{
+ "fingerprints":
+ [
+  {
+   "name":"CINC /COSS/CL_EVENT_GEN_EVENT_DATA=CCAU.abap",
+   "fingerprint":"2S+9HhuNAbbiC20ybwFe+EAzOCbcEgSzMINo9V2MgligUTgRji3SjAHSzeVE5yOda8M2niVUHkNF49JcB15RxQ=="
+  },
+  {
+   "name":"CINC /COSS/CL_EVENT_GEN_EVENT_DATA=CCDEF.abap",
+   "fingerprint":"s6tSO+uaJtFBmGQssTesMxgKABMEuXba+x7Aw6/GgpiqEWIeE7FHzeD05h3dmFNKE79PalL6UO+dbTVKf5p5eQ=="
+  },
+  {
+   "name":"CINC /COSS/CL_EVENT_GEN_EVENT_DATA=CCIMP.abap",
+   "fingerprint":"bgq4U82eBJv3AwnL9qOgMzf2pscUpnHhtTo0ELUci7jE+w6kRG+dBOe18HB4KGX/rV+pJpv0x9eSc9qJDPbOgQ=="
+  },
+  {
+   "name":"CINC /COSS/CL_EVENT_GEN_EVENT_DATA=CCMAC.abap",
+   "fingerprint":"yEOXc4HHv8sZXDbQT0eP31pac2urVB4b+Nbz4jf09wmdEDWNWmkMQsCMuKZNiyiEDr5anm9tIN4kfid4fpS32g=="
+  },
+  {
+   "name":"CLAS /COSS/CL_EVENT_GEN_EVENT_DATA.asx.json",
+   "fingerprint":"YV5U+mW4GypOGH1QyJveIu+n3pJuQHmLWlMQqI8RyDhJSShrsxLhN84YViwh3gLreLdwkaqDP4rzyJFmQQRCyA=="
+  },
+  {
+   "name":"CLSD /COSS/CL_EVENT_GEN_EVENT_DATA.abap",
+   "fingerprint":"x0czSbfvbFPLhhBMAZlW20S4g3m0zoYoDAdQE8z1m/hK34IdRnmC55rcVAqZ+I9MYv1s36g3BSyJW58AW/zbeQ=="
+  },
+  {
+   "name":"CPRI /COSS/CL_EVENT_GEN_EVENT_DATA.abap",
+   "fingerprint":"K5ufjdVgd8GflmfkRYXsI34kO2pFGcKM9KbzpQztGK+hgu1mg6wZAq9fI9x+uF/n/mZYNRatCaF1uQytVkBsOg=="
+  },
+  {
+   "name":"CPRO /COSS/CL_EVENT_GEN_EVENT_DATA.abap",
+   "fingerprint":"5NOqoBM4mfG3CPdi8IcbihRQbHpy4+z9WlJu8sf80KJPwaOFjUEFYNzcysY5klm9jgOkZsUCVVGWKtWcSY4khg=="
+  },
+  {
+   "name":"CPUB /COSS/CL_EVENT_GEN_EVENT_DATA.abap",
+   "fingerprint":"ILFlMZtHDIMFZzVN2CSgGJMmQmKbnzZixpag90P0qDJ4GsObo7WroeC1VN0U6hkF9OR9PkKnEcROJAHEyhP+0g=="
+  },
+  {
+   "name":"METH IF_OO_ADT_CLASSRUN~MAIN.abap",
+   "fingerprint":"ZJtzo21NPQYtlvews5XO+UGpjLbikv44OR8OZXhp0OO0v9h8NvuBA/wqC57z+GzhTfIWxAa4ZeRSWLPYR6fURQ=="
+  },
+  {
+   "name":"REPS /COSS/CL_EVENT_GEN_EVENT_DATA=CT.abap",
+   "fingerprint":"ZXal30FrdGwvI2p8/ZhW2obOOgk60XZmKLFAVcPM16zw8X7KHFL2YURADvF9eAcKo3YypJl5yFR0yKPOGhQPwQ=="
+  }
+ ],
+ "fingerprintAll":"TElira9AifSEQSa6zteqpGIVxholVmhs5YBbR8x4zXaEgMzBENlt409aMiEH9G8vtNuBUI8ptgflBqSPpoba/g=="
+}
