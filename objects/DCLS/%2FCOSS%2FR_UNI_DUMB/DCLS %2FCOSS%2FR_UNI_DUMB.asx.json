@@ -1,0 +1,60 @@
+[
+ {
+  "table":"ACMDCLSRC",
+  "data":
+  [
+   {
+    "DCLNAME":"/COSS/R_UNI_DUMB",
+    "AS4LOCAL":"A",
+    "AS4USER":"SAP_CUSTOMER",
+    "AS4DATE":"2026-04-20",
+    "AS4TIME":"09:33:08",
+    "SOURCE":"@EndUserText.label: '/COSS/R_UNI_DUMB'\r\n@MappingRole: true\r\ndefine role /COSS/R_UNI_DUMB {\r\n  grant select on /COSS/R_UNI_DUMB\r\n  where TRUE;\r\n}",
+    "PARENTNAME":"",
+    "ABAP_LANGUAGE_VERSION":"5"
+   }
+  ]
+ },
+ {
+  "table":"ACMDCLSRCT",
+  "data":
+  [
+   {
+    "DCLNAME":"/COSS/R_UNI_DUMB",
+    "DCLLANGUAGE":"E",
+    "AS4LOCAL":"A",
+    "DDTEXT":"Access Control for /COSS/R_UNI_DUMB"
+   }
+  ]
+ },
+ {
+  "table":"TADIR",
+  "data":
+  [
+   {
+    "PGMID":"R3TR",
+    "OBJECT":"DCLS",
+    "OBJ_NAME":"/COSS/R_UNI_DUMB",
+    "KORRNUM":"",
+    "SRCSYSTEM":"...",
+    "AUTHOR":"SAP_CUSTOMER",
+    "SRCDEP":"",
+    "DEVCLASS":"/COSS/UNI_DUMB",
+    "GENFLAG":"",
+    "EDTFLAG":"",
+    "CPROJECT":" S",
+    "MASTERLANG":"E",
+    "VERSID":"",
+    "PAKNOCHECK":"",
+    "OBJSTABLTY":"",
+    "COMPONENT":"/COSS/UNIFIED",
+    "CRELEASE":"100",
+    "DELFLAG":"",
+    "TRANSLTTXT":"",
+    "CREATED_ON":"2026-04-20",
+    "CHECK_DATE":"2026-04-20",
+    "CHECK_CFG":""
+   }
+  ]
+ }
+]
