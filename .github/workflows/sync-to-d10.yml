@@ -1,0 +1,82 @@
+name: Sync to D10
+
+# Trigger when BTP pushes objects (transport release).
+# Also supports manual trigger for full re-sync.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'objects/**'
+      - '.gctsmetadata/**'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    # Skip if this push was made by the sync bot (prevents infinite loops)
+    if: github.actor != 'github-actions[bot]'
+
+    steps:
+      - name: Checkout BTP repo (source)
+        uses: actions/checkout@v4
+        with:
+          path: btp
+          fetch-depth: 2
+
+      - name: Checkout D10 repo (target)
+        uses: actions/checkout@v4
+        with:
+          repository: austinkloske22/unified-sap-addon
+          token: ${{ secrets.SYNC_PAT }}
+          path: d10
+          fetch-depth: 1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install abapgit-cli
+        run: |
+          git clone --depth 1 https://github.com/austinkloske22/abapgit-cli.git /tmp/abapgit-cli
+          cd /tmp/abapgit-cli && npm ci && npm run build
+
+      - name: Reverse sync BTP objects to D10 format
+        run: |
+          # Normalize TADIR for D10 and strip FINGERPRINT.json files
+          node /tmp/abapgit-cli/dist/bin/abapgit-cli.js reverse-sync \
+            -i btp/objects \
+            -o /tmp/d10-objects \
+            -v
+
+          # Merge into D10 repo (additive — preserves D10-only objects)
+          rsync -av /tmp/d10-objects/objects/ d10/objects/
+
+          # Sync nametabs additively
+          rsync -av btp/.gctsmetadata/nametabs/ d10/.gctsmetadata/nametabs/
+
+          # Sync objecttypes additively (skip FINGERPRINT.json)
+          rsync -av --exclude='FINGERPRINT.json' \
+            btp/.gctsmetadata/objecttypes/ d10/.gctsmetadata/objecttypes/
+
+          # NEVER touch D10's .gcts.properties.json
+          echo "D10 identity preserved"
+
+      - name: Commit and push to D10
+        run: |
+          cd d10
+          git config user.name "gcts-sync-bot"
+          git config user.email "gcts-sync-bot@contax.com"
+          git add -A objects/ .gctsmetadata/
+
+          if git diff --cached --quiet; then
+            echo "No changes to sync"
+            exit 0
+          fi
+
+          BTP_MSG=$(cd ../btp && git log -1 --format='%s')
+          git commit -m "[SYNC] ${BTP_MSG}"
+
+          # Normal push only — NEVER force push
+          git push
